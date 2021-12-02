@@ -8,12 +8,42 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  background: #000;
+  /* background: #000; */
 }
 /* section1>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* after effects */
-
+.effect1 {
+  background: url("../images/Ellipse 1.png");
+  /* background-color: aqua; */
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.effect2 {
+  background: url("../images/Ellipse1.png");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.effect3 {
+  background: url("../images/Ellipse1.png");
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* ends */
 
 /* ends>>>>>>>>>>>>>>>>>>>>>>>>> */
