@@ -8,7 +8,7 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0;
-  /* background: #000; */
+  background: #000;
 }
 /* section1>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
@@ -16,31 +16,42 @@ body {
 .effect1 {
   background: url("../images/Ellipse 1.png");
   /* background-color: aqua; */
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   position: absolute;
   top: 0;
   left: 0;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .effect2 {
-  background: url("../images/Ellipse1.png");
-  width: 100px;
-  height: 100px;
+  background: url("../images/Rectangle 4.png");
+  width: 200px;
+  height: 200px;
   position: absolute;
-  top: 0;
+  bottom: 0;
   left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.effect4 {
+  background: url("../images/Rectangle\ 3.png");
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   background-position: center;
   background-repeat: no-repeat;
 }
 .effect3 {
-  background: url("../images/Ellipse1.png");
-  width: 100px;
-  height: 100px;
+  background: url("../images/Rectangle\ 5.png");
+  width: 200px;
+  height: 200px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -40px;
+  right: 0;
   background-position: center;
   background-repeat: no-repeat;
 }
