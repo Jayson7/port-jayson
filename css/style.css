@@ -64,6 +64,14 @@ body {
   /* background-color: white; */
   text-align: center;
   color: white;
+
+  font-family: "Ubuntu";
+}
+.intro-section1 button {
+  padding: 10px;
+  width: 150px;
+  font-size: 1rem;
+  font-weight: 900;
 }
 .contain-section1 {
   height: 50%;
