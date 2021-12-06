@@ -24,8 +24,8 @@ body {
   width: 200px;
   height: 200px;
   position: absolute;
-  top: -40px;
-  left: -40px;
+  top: -50px;
+  left: -50px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -35,8 +35,8 @@ body {
   width: 200px;
   height: 200px;
   position: absolute;
-  bottom: -42px;
-  left: -30px;
+  bottom: -52px;
+  left: -60px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -45,7 +45,7 @@ body {
   width: 200px;
   height: 200px;
   position: absolute;
-  bottom: 0px;
+  bottom: -20px;
   right: -20px;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,8 +55,8 @@ body {
   width: 200px;
   height: 200px;
   position: absolute;
-  top: -60px;
-  right: -20px;
+  top: -70px;
+  right: -30px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -73,6 +73,9 @@ body {
   font-size: 1rem;
   font-weight: 900;
   margin: 0 10px 0 10px;
+}
+.intro-section1 h1 {
+  font-size: 2rem;
 }
 .contain-section1 {
   height: 50%;
