@@ -3,6 +3,7 @@ body {
   padding: 0;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  background-color: #000;
 }
 .section1 {
   width: 100vw;
@@ -55,6 +56,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 /* ends */
 
 /* ends>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* media query for section1 >>>>>>>>>>>>>>>>>>>>> */
+
+/* ends */
