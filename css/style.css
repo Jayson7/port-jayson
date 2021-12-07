@@ -64,6 +64,7 @@ body {
   /* background-color: white; */
   text-align: center;
   color: white;
+  margin-top: -10px;
 
   font-family: "Ubuntu";
 }
@@ -71,11 +72,17 @@ body {
   padding: 10px;
   width: 180px;
   font-size: 1rem;
+  border: none;
+  border-radius: 6px;
   font-weight: 900;
   margin: 0 10px 0 10px;
 }
 .intro-section1 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+.intro-section1 h3 {
+  font-size: 1.5rem;
 }
 .contain-section1 {
   height: 50%;
