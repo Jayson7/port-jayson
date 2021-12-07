@@ -35,6 +35,9 @@ body {
   width: 200px;
   height: 200px;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   bottom: -52px;
   left: -60px;
   background-position: center;
@@ -60,6 +63,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+/*  effect svg config */
+.effect2 svg {
+  color: white;
+}
+/*  */
 .intro-section1 {
   /* background-color: white; */
   text-align: center;
