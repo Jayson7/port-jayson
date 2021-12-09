@@ -39,8 +39,8 @@ body {
 
 .effect2 {
   background: url("../images/Rectangle 4.png");
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   position: absolute;
   display: flex;
   background-size: contain;
@@ -81,6 +81,7 @@ body {
   color: white;
   width: 50px;
   height: 50px;
+  margin-left: -30px;
 }
 .effect1 svg {
   color: white;
