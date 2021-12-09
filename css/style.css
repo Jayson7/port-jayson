@@ -232,5 +232,8 @@ body {
     width: 90px;
     height: 90px;
   }
+  .intro-section1 {
+    margin-top: 0;
+  }
 }
 /* media queries for section1 ends */
