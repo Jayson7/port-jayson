@@ -60,7 +60,7 @@ body {
   background: url("../images/Rectangle\ 5.png");
   width: 200px;
   height: 200px;
-  position: absolute;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -109,7 +109,7 @@ body {
   font-weight: 900;
   /* transition: 1000ms ease all; */
 
-  /* margin: 0 10px 0 10px; */
+  margin: 0 10px 0 10px;
 }
 .intro-section1 .b {
   padding: 10px;
@@ -120,7 +120,7 @@ body {
   border-radius: 6px;
   background-color: transparent;
   font-weight: 900;
-  /* margin: 0 10px 0 10px; */
+  margin: 0 10px 0 10px;
   transition: 1000ms ease all;
 }
 .intro-section1 .b:hover {
@@ -171,16 +171,26 @@ body {
   width: 300px;
   height: 200px;
 }
-
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.social-icons i {
+  color: #000;
+  margin: 5px;
+  font-size: 1.7rem;
+}
 /* ends */
 
 /* ends>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* media query for section1 >>>>>>>>>>>>>>>>>>>>> */
-
-
-
-
-
 
 /* media queries for section1 ends */
