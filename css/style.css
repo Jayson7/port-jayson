@@ -148,9 +148,14 @@ body {
   font-size: 1.5rem;
 }
 .contain-section1 {
-  height: 50%;
+  height: 100%;
   width: 100%;
-  margin-top: -200px;
+  /* margin-top: -200px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 .contain-section1-img {
   display: flex;
@@ -234,6 +239,18 @@ body {
   }
   .intro-section1 {
     margin-top: 0;
+  }
+  .intro-section1 button {
+    font-size: 0.7rem;
+  }
+  .intro-section1 .b {
+    font-size: 0.7rem;
+  }
+  .intro-section1 h1 {
+    font-size: 2rem;
+  }
+  .intro-section1 h3 {
+    font-size: 1.5rem;
   }
 }
 /* media queries for section1 ends */
