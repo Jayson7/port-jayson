@@ -57,6 +57,7 @@ body {
   height: 150px;
   position: absolute;
   bottom: 0px;
+
   right: 0px;
   background-size: cover;
   background-position: center;
@@ -203,20 +204,33 @@ body {
 /* media query for section1 >>>>>>>>>>>>>>>>>>>>> */
 @media screen and (max-width: 760px) {
   .effect1 {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
   }
   .effect2 {
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
   }
   .effect2 svg {
     width: 30px;
     height: 30px;
+    margin-left: -20px;
   }
   .effect1 svg {
     width: 30px;
     height: 30px;
+    margin-left: -20px;
+  }
+  .effect3 {
+    width: 90px;
+    height: 90px;
+  }
+  .effect3 i {
+    font-size: 1.5rem;
+  }
+  .effect4 {
+    width: 90px;
+    height: 90px;
   }
 }
 /* media queries for section1 ends */
