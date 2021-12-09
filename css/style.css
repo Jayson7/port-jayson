@@ -28,9 +28,10 @@ body {
   align-items: center;
   justify-content: center;
   width: 150px;
-  height: 150px;
+  height: 130px;
+  background-size: contain;
   position: absolute;
-  top: 0px;
+  top: -10px;
   left: 0px;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,14 +64,14 @@ body {
 }
 .effect3 {
   background: url("../images/Rectangle\ 5.png");
-  width: 120px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   position: fixed;
   background-size: contain;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: -20px;
+  top: -30px;
   right: 0px;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,7 +86,8 @@ body {
   color: white;
   width: 50px;
   height: 50px;
-  margin-left: -30px;
+  margin-left: -50px;
+  margin-top: -10px;
 }
 
 /* ends */
