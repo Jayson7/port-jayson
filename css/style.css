@@ -1,8 +1,11 @@
-body {
+* {
   margin: 0;
   padding: 0;
+}
+
+body {
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background-color: #fff;
 }
 .section1 {
@@ -24,48 +27,51 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   position: absolute;
-  top: -40px;
-  left: -40px;
+  top: 0px;
+  left: 0px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .effect2 {
   background: url("../images/Rectangle 4.png");
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   position: absolute;
   display: flex;
+  background-size: contain;
   align-items: center;
   justify-content: center;
-  bottom: -52px;
-  left: -60px;
+  bottom: 0px;
+  left: 0px;
   background-position: center;
   background-repeat: no-repeat;
 }
 .effect4 {
   background: url("../images/Rectangle\ 3.png");
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   position: absolute;
-  bottom: -20px;
-  right: -20px;
+  bottom: 0px;
+  right: 0px;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 .effect3 {
   background: url("../images/Rectangle\ 5.png");
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 100px;
   position: fixed;
+  background-size: contain;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: -70px;
-  right: -30px;
+  top: -20px;
+  right: 0px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -87,7 +93,7 @@ body {
   font-weight: 900;
   font-size: 2rem;
   color: white;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 /*  */
 .intro-section1 {
