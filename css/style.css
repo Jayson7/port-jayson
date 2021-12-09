@@ -10,7 +10,7 @@ body {
 }
 .section1 {
   width: 100vw;
-  height: 98vh;
+  height: 100vh;
   margin: 0;
   background: #fff;
   display: flex;
@@ -58,7 +58,7 @@ body {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -201,5 +201,22 @@ body {
 /* ends>>>>>>>>>>>>>>>>>>>>>>>>> */
 
 /* media query for section1 >>>>>>>>>>>>>>>>>>>>> */
-
+@media screen and (max-width: 760px) {
+  .effect1 {
+    width: 90px;
+    height: 90px;
+  }
+  .effect2 {
+    width: 90px;
+    height: 90px;
+  }
+  .effect2 svg {
+    width: 30px;
+    height: 30px;
+  }
+  .effect1 svg {
+    width: 30px;
+    height: 30px;
+  }
+}
 /* media queries for section1 ends */
