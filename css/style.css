@@ -11,7 +11,7 @@ body {
 
 .section1 {
     width: 100vw;
-    height: 98vh;
+    height: 97vh;
     margin: 0;
     background: #fff;
     display: flex;
@@ -37,7 +37,7 @@ body {
     background-size: contain;
     position: absolute;
     top: -10px;
-    left: 0px;
+    left: -5px;
     background-position: center;
     background-repeat: no-repeat;
 }
