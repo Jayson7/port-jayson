@@ -133,7 +133,7 @@ body {
     background-color: #6638a1;
     font-weight: 900;
     /* transition: 1000ms ease all; */
-    margin: 0 10px 0 10px;
+    margin: 5px 10px 0 10px;
 }
 
 .intro-section1 .b {
@@ -145,7 +145,7 @@ body {
     border-radius: 6px;
     background-color: transparent;
     font-weight: 900;
-    margin: 0 10px 0 10px;
+    margin: 5px 10px 0 10px;
     transition: 1000ms ease all;
 }
 
@@ -316,6 +316,17 @@ body {
         height: 100%;
         width: 100%;
         margin-top: 0;
+        flex-direction: column;
+    }
+    .contain-box1 {
+        height: 120px;
+    }
+    .contain-box2 {
+        height: 120px;
+    }
+    .intro-section1 {
+        margin-top: 50px;
+        width: 80%;
     }
 }
 
