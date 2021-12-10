@@ -352,7 +352,7 @@ body {
 
 .header-wraps * {
     display: none;
-    transition: 500ms all ease;
+    transition: 1000ms all ease;
 }
 
 .active-header i {
@@ -362,8 +362,12 @@ body {
     top: 33px;
     font-size: 2rem;
     color: white;
-    transition: 500ms all ease;
+    transition: 1000ms all ease;
     /* margin-top: 10px; */
+}
+
+.active-header * {
+    transition: 1000ms all ease;
 }
 
 .active-header {
