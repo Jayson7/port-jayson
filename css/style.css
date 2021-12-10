@@ -345,6 +345,11 @@ body {
     transition: 1000ms width ease;
 }
 
+.header-wraps i {
+    display: none;
+    transition: 1000ms display ease;
+}
+
 .active-header i {
     font-weight: 900;
     position: absolute;
