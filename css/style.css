@@ -255,5 +255,10 @@ body {
 }
 
 @media screen and (max-width: 660px) {
+  .contain-box1,
+  .contain-box2 {
+    width: 200px;
+    height: 150px;
+  }
 }
 /* media queries for section1 ends */
