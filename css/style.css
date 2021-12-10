@@ -153,7 +153,7 @@ body {
     background-color: #6638a1;
     border: none;
     color: #fff;
-    transition: 1000ms ease all;
+    transition: 1000ms cubic-bezier(1, 0.1, 0.01, 0.02) all;
 }
 
 .intro-section1 h1 {
@@ -405,6 +405,13 @@ ul li {
 
 ul li a {
     color: #fff;
+    text-decoration: none;
+}
+
+ul li:nth-child(1) {
+    margin-left: -50%;
+    /* background-color: #fff; */
+    background-color: aqua;
 }
 
 
