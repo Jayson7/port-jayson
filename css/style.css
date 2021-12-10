@@ -342,12 +342,17 @@ body {
     position: absolute;
     width: 0;
     background-color: #000;
-    transition: 1000ms width ease;
+    transition: 500ms width ease;
 }
 
 .header-wraps i {
     display: none;
-    transition: 1000ms display ease;
+    transition: 500ms all ease;
+}
+
+.header-wraps * {
+    display: none;
+    transition: 500ms all ease;
 }
 
 .active-header i {
@@ -357,6 +362,7 @@ body {
     top: 33px;
     font-size: 2rem;
     color: white;
+    transition: 500ms all ease;
     /* margin-top: 10px; */
 }
 
@@ -366,7 +372,7 @@ body {
     position: absolute;
     width: 100vw;
     background-color: #000;
-    transition: 1000ms width ease;
+    transition: 500ms width ease;
 }
 
 
@@ -374,8 +380,8 @@ body {
 
 @media screen and (max-width: 760px) {
     .active-header i {
-        top: 10px;
-        right: 63px;
+        top: 3px;
+        right: 30px;
         /* position: absolute; */
     }
 }
