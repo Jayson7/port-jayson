@@ -1,264 +1,323 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  scroll-behavior: smooth;
-  /* overflow-x: hidden; */
-  background-color: #fff;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+    background-color: #fff;
 }
+
 .section1 {
-  width: 100vw;
-  height: 98vh;
-  margin: 0;
-  background: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+    width: 100vw;
+    height: 98vh;
+    margin: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
+
+
 /* section1>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+
 /* after effects */
+
 .effect1 {
-  background: url("../images/Ellipse 1.png");
-  /* background-color: aqua; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  height: 130px;
-  background-size: contain;
-  position: absolute;
-  top: -10px;
-  left: 0px;
-  background-position: center;
-  background-repeat: no-repeat;
+    background: url("../images/Ellipse 1.png");
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 130px;
+    background-size: contain;
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .effect2 {
-  background: url("../images/Rectangle 4.png");
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  display: flex;
-  background-size: contain;
-  align-items: center;
-  justify-content: center;
-  bottom: 0px;
-  left: 0px;
-  background-position: center;
-  background-repeat: no-repeat;
+    background: url("../images/Rectangle 4.png");
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    display: flex;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+    left: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-.effect4 {
-  background: url("../images/Rectangle\ 3.png");
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  bottom: 0px;
 
-  right: 0px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.effect4 {
+    background: url("../images/Rectangle\ 3.png");
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 .effect3 {
-  background: url("../images/Rectangle\ 5.png");
-  width: 150px;
-  height: 150px;
-  position: fixed;
-  background-size: contain;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: -30px;
-  right: 0px;
-  background-position: center;
-  background-repeat: no-repeat;
+    background: url("../images/Rectangle\ 5.png");
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -30px;
+    right: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+
 /*  effect svg config */
+
 .effect2 svg {
-  color: white;
-  width: 50px;
-  height: 50px;
-  margin-left: -30px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-left: -30px;
 }
+
 .effect1 svg {
-  color: white;
-  width: 50px;
-  height: 50px;
-  margin-left: -50px;
-  margin-top: -10px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-left: -50px;
+    margin-top: -10px;
 }
+
 
 /* ends */
+
 .effect3 i {
-  font-weight: 900;
-  font-size: 2rem;
-  color: white;
-  margin-top: 10px;
+    font-weight: 900;
+    font-size: 2rem;
+    color: white;
+    margin-top: 10px;
 }
+
+
 /*  */
+
 .intro-section1 {
-  /* background-color: white; */
-  text-align: center;
-  color: #000;
-  margin-top: -10px;
-
-  font-family: "Ubuntu";
+    /* background-color: white; */
+    text-align: center;
+    color: #000;
+    margin-top: -10px;
+    font-family: "Ubuntu";
 }
+
 .intro-section1 button {
-  padding: 10px;
-  width: 180px;
-  font-size: 1rem;
-  color: #fff;
-  border: 1px solid;
-  border-radius: 6px;
-  background-color: #6638a1;
-  font-weight: 900;
-  /* transition: 1000ms ease all; */
+    padding: 10px;
+    width: 180px;
+    font-size: 1rem;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: #6638a1;
+    font-weight: 900;
+    /* transition: 1000ms ease all; */
+    margin: 0 10px 0 10px;
+}
 
-  margin: 0 10px 0 10px;
-}
 .intro-section1 .b {
-  padding: 10px;
-  width: 180px;
-  font-size: 1rem;
-  color: #000;
-  border: 1px solid;
-  border-radius: 6px;
-  background-color: transparent;
-  font-weight: 900;
-  margin: 0 10px 0 10px;
-  transition: 1000ms ease all;
+    padding: 10px;
+    width: 180px;
+    font-size: 1rem;
+    color: #000;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: transparent;
+    font-weight: 900;
+    margin: 0 10px 0 10px;
+    transition: 1000ms ease all;
 }
+
 .intro-section1 .b:hover {
-  background-color: #6638a1;
-  border: none;
-  color: #fff;
-  transition: 1000ms ease all;
+    background-color: #6638a1;
+    border: none;
+    color: #fff;
+    transition: 1000ms ease all;
 }
+
 .intro-section1 h1 {
-  font-size: 2.5rem;
-  text-transform: capitalize;
-  font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 900;
 }
+
 .intro-section1 h3 {
-  font-size: 1.5rem;
+    font-size: 1.5rem;
 }
+
 .contain-section1 {
-  height: 200px;
-  width: 100%;
-  margin-top: -200px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+    height: 200px;
+    width: 100%;
+    margin-top: -200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+
 .contain-section1-img {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 200px;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .contain-box1 {
-  width: 300px;
-  /* background-color: aliceblue; */
-  background-image: url("../images/1.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 200px;
+    width: 300px;
+    /* background-color: aliceblue; */
+    background-image: url("../images/1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
 }
 
 .contain-box2 {
-  /* background-color: aqua; */
-  background-image: url("../images/2.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 300px;
-  height: 200px;
+    /* background-color: aqua; */
+    background-image: url("../images/2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 200px;
 }
+
 .social-icons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 200px;
-  position: absolute;
-  left: 50px;
-  top: 50%;
-  transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
+
 .social-icons i {
-  color: #000;
-  margin: 5px;
-  font-size: 1.7rem;
+    color: #000;
+    margin: 5px;
+    font-size: 1.7rem;
 }
+
+
 /* ends */
+
 
 /* ends>>>>>>>>>>>>>>>>>>>>>>>>> */
 
+
 /* media query for section1 >>>>>>>>>>>>>>>>>>>>> */
+
 @media screen and (max-width: 760px) {
-  .effect1 {
-    width: 70px;
-    height: 70px;
-  }
-  .effect2 {
-    width: 70px;
-    height: 70px;
-  }
-  .effect2 svg {
-    width: 30px;
-    height: 30px;
-    margin-left: -20px;
-  }
-  .effect1 svg {
-    width: 30px;
-    height: 30px;
-    margin-left: -20px;
-  }
-  .effect3 {
-    width: 90px;
-    height: 90px;
-  }
-  .effect3 i {
-    font-size: 1.5rem;
-  }
-  .effect4 {
-    width: 90px;
-    height: 90px;
-  }
-  .intro-section1 {
-    margin-top: 0;
-  }
-  .intro-section1 button {
-    font-size: 0.7rem;
-  }
-  .intro-section1 .b {
-    font-size: 0.7rem;
-  }
-  .intro-section1 h1 {
-    font-size: 2rem;
-  }
-  .intro-section1 h3 {
-    font-size: 1.5rem;
-  }
+    .effect1 {
+        width: 70px;
+        height: 70px;
+    }
+    .effect2 {
+        width: 70px;
+        height: 70px;
+    }
+    .effect2 svg {
+        width: 30px;
+        height: 30px;
+        margin-left: -20px;
+    }
+    .effect1 svg {
+        width: 30px;
+        height: 30px;
+        margin-left: -20px;
+    }
+    .effect3 {
+        width: 90px;
+        height: 90px;
+    }
+    .effect3 i {
+        font-size: 1.5rem;
+    }
+    .effect4 {
+        width: 90px;
+        height: 90px;
+    }
+    .intro-section1 {
+        margin-top: 0;
+    }
+    .intro-section1 button {
+        font-size: 0.7rem;
+    }
+    .intro-section1 .b {
+        font-size: 0.7rem;
+    }
+    .intro-section1 h1 {
+        font-size: 2rem;
+    }
+    .intro-section1 h3 {
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 660px) {
-  .contain-box1,
-  .contain-box2 {
-    width: 200px;
-    height: 150px;
-  }
+    .contain-box1,
+    .contain-box2 {
+        width: 200px;
+        height: 150px;
+    }
+    .intro-section1 h1 {
+        font-size: 1.3rem;
+    }
+    .intro-section1 h3 {
+        font-size: 1rem;
+    }
+    .intro-section1 p {
+        font-size: 0.6rem;
+    }
+    .social-icons {
+        left: 15px;
+    }
+    .intro-section1 button {
+        width: 120px;
+        font-size: 0.7;
+        padding: 5px;
+    }
+    .intro-section1 .b {
+        width: 90px;
+        padding: 5px;
+        font-size: 0.7;
+    }
 }
+
+@media screen and (max-width: 450px) {
+    .contain-section1 {
+        height: 100%;
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+
 /* media queries for section1 ends */
