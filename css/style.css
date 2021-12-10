@@ -341,8 +341,18 @@ body {
     height: 100vh;
     position: absolute;
     width: 100vw;
-    background-color: rgba(1, 0, 0.7, 0.9);
-    transition: 10000ms width ease;
+    background-color: #000;
+    transition: 1000ms width ease;
+}
+
+.header-wraps i {
+    font-weight: 900;
+    position: absolute;
+    right: 63px;
+    top: 23px;
+    font-size: 2rem;
+    color: white;
+    margin-top: 10px;
 }
 
 
