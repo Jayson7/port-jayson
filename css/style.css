@@ -354,10 +354,10 @@ body {
     font-weight: 900;
     position: absolute;
     right: 63px;
-    top: 23px;
+    top: 33px;
     font-size: 2rem;
     color: white;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .active-header {
@@ -368,6 +368,20 @@ body {
     background-color: #000;
     transition: 1000ms width ease;
 }
+
+
+/* media queries for nav and other components in headers */
+
+@media screen and (max-width: 760px) {
+    .active-header i {
+        top: 10px;
+        right: 63px;
+        /* position: absolute; */
+    }
+}
+
+
+/* ends */
 
 
 /* ends */
