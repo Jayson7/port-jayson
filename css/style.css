@@ -362,7 +362,7 @@ body {
     top: 33px;
     font-size: 2rem;
     color: white;
-    transition: 1000ms all ease;
+    transition: 0.5s all cubic-bezier(1, 0.1, 0.01, 0.02);
     /* margin-top: 10px; */
 }
 
@@ -375,8 +375,8 @@ body {
     height: 100vh;
     position: absolute;
     width: 100vw;
-    background-color: #000;
-    transition: 500ms width ease;
+    /* background-color: #000; */
+    transition: 0.3s width cubic-bezier(0.01, 0.1, 0.01, 0.02);
 }
 
 .navbar-wraps {
@@ -387,7 +387,7 @@ body {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    background-color: #6638a1;
+    background-color: #583b7e;
 }
 
 ul {
@@ -397,6 +397,14 @@ ul {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: #fff;
 }
 
 
