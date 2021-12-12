@@ -508,16 +508,31 @@ ul li:nth-child(6) {
 .section3 {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .section3 .box-section3 {
     display: grid;
+    position: relative;
+    top: 100px;
+    left: 100px;
 }
 
 .box-section3 h5 {
     font-family: var(--font2);
     font-weight: 900;
+    font-size: 1.5rem;
     color: #0c1b33;
+}
+
+.box-section3 h3 {
+    font-family: var(--font2);
+    font-weight: 900;
+    color: #000;
+    font-size: 2rem;
 }
 
 
