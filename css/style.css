@@ -5,6 +5,7 @@
     --font1: "Ubuntu", "Ubuntu Mono";
     --font2: "Assistant";
     --font3: "Sarala";
+    color: #fff;
 }
 
 body {
@@ -17,7 +18,10 @@ body {
     width: 100vw;
     height: 97vh;
     margin: 0;
-    background: #fff;
+    background: url("../images/Kashmir.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -123,8 +127,12 @@ body {
     /* background-color: white; */
     text-align: center;
     color: #000;
-    margin-top: -10px;
+    margin-top: 10px;
     font-family: "Ubuntu";
+}
+
+.intro-section1 span {
+    color: #0c1b33;
 }
 
 .intro-section1 button {
@@ -134,7 +142,7 @@ body {
     color: #fff;
     border: 1px solid;
     border-radius: 6px;
-    background-color: #6638a1;
+    background-color: transparent;
     font-weight: 900;
     /* transition: 1000ms ease all; */
     margin: 5px 10px 0 10px;
@@ -147,7 +155,8 @@ body {
     color: #000;
     border: 1px solid;
     border-radius: 6px;
-    background-color: transparent;
+    background-color: #0c1b33;
+    color: #fff;
     font-weight: 900;
     margin: 5px 10px 0 10px;
     transition: 1000ms ease all;
@@ -161,7 +170,7 @@ body {
 }
 
 .intro-section1 h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-transform: capitalize;
     font-weight: 900;
     font-family: var(--font1);
@@ -225,7 +234,7 @@ body {
 }
 
 .social-icons i {
-    color: #000;
+    color: #e7ecef;
     margin: 5px;
     font-size: 1.7rem;
 }
@@ -492,3 +501,24 @@ ul li:nth-child(6) {
 
 
 /* ends */
+
+
+/* section3   ***************************** */
+
+.section3 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.section3 .box-section3 {
+    display: grid;
+}
+
+.box-section3 h5 {
+    font-family: var(--font2);
+    font-weight: 900;
+    color: #0c1b33;
+}
+
+
+/* section3 ends here */
