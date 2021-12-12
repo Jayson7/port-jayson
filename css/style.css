@@ -508,10 +508,16 @@ ul li:nth-child(6) {
 .section3 {
     width: 100vw;
     height: 100vh;
+}
+
+.section3-boxes {
     display: flex;
+    width: 100%;
+    height: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    background-color: #583b7e;
 }
 
 .section3 .box-section3 {
