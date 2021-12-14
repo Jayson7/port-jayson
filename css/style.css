@@ -1,6 +1,6 @@
 * {
     --font1: "Ubuntu";
-    --font2: "Ubunut Mono";
+    --font2: "Ubuntu Mono";
 }
 
 body {
@@ -22,13 +22,13 @@ body {
     background-size: co ntain; */
     background-color: #000;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .social-icons {
-    position: fixed;
+    position: absolute;
     left: 30px;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -48,6 +48,22 @@ body {
     color: white;
     text-align: center;
 }
+
+.intro-section1 h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: var(--font1);
+    text-transform: uppercase;
+}
+
+.intro-section1 h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: var(--font2);
+    text-transform: capitalize;
+}
+
+.intro-section1 p {}
 
 @media screen and (max-width: 800px) {
     .section1 {
