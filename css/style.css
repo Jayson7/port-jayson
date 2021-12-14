@@ -27,6 +27,10 @@ body {
     justify-content: center;
 }
 
+.social-icons-opposite {
+    display: none;
+}
+
 .social-icons {
     position: absolute;
     left: 30px;
@@ -68,6 +72,22 @@ body {
 @media screen and (max-width: 800px) {
     .section1 {
         /* background-size: cover; */
+    }
+    .intro-section1 {
+        padding: 10px;
+    }
+    .social-icons {
+        display: none;
+    }
+    .social-icons-opposite {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .social-icons-opposite i {
+        font-size: 1rem;
+        font-weight: 900;
     }
 }
 
