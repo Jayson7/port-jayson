@@ -92,5 +92,14 @@ body {
     justify-content: center;
 }
 
+.navbar-wraps ul {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 /* ends */
