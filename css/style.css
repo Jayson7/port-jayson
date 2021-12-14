@@ -55,8 +55,30 @@ body {
 
 /* navbar */
 
-header {
+.header-wraps {
     display: none;
+}
+
+.bars {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.active-header {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(5, 4, 4);
+    z-index: 10;
+}
+
+.navbar-wraps {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
 }
 
 
