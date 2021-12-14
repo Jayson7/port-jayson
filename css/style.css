@@ -13,8 +13,38 @@ body {
 .section1 {
     width: 100vw;
     height: 100vh;
-    background: url("../images/j.jpg");
+    /* background: url("../images/j.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain; */
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
+
+.social-icons {
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 800px) {
+    .section1 {
+        /* background-size: cover; */
+    }
+}
+
+
+/* navbar */
+
+header {
+    display: none;
+}
+
+
+/* ends */
