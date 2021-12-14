@@ -10,6 +10,9 @@ body {
     overflow-x: hidden;
 }
 
+
+/* section1 */
+
 .section1 {
     width: 100vw;
     height: 100vh;
@@ -53,13 +56,41 @@ body {
 }
 
 
+/* ends */
+
+
 /* navbar */
 
-.header-wraps {
+.header-wraps * {
+    width: 0;
+    height: 0;
     display: none;
+    position: fixed;
+    background-color: rgb(12, 5, 5);
+    /* z-index: 10; */
 }
 
-.fa-times {
+.header-wraps .navbar-wraps {
+    width: 0vw;
+    height: 0vh;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: 5s all cubic-bezier(1, 1.04, 0, 1.43);
+}
+
+.header-wraps {
+    transition: 0.2s all cubic-bezier(1, 1.04, 0, 1.43);
+    width: 0;
+    height: 0;
+    display: none;
+    position: fixed;
+    background-color: rgb(12, 5, 5);
+    /* z-index: 10; */
+}
+
+.active-header .fa-times {
     position: absolute;
     right: 45px;
     top: 35px;
@@ -79,26 +110,42 @@ body {
     width: 100vw;
     height: 100vh;
     position: fixed;
-    background-color: rgb(5, 4, 4);
+    background-color: rgb(12, 5, 5);
     z-index: 10;
+    transition: 1s all cubic-bezier(1, 1.04, 0, 1.43);
 }
 
-.navbar-wraps {
+.active-header .navbar-wraps {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transition: 3s all cubic-bezier(1, 1.04, 0, 1.43);
 }
 
-.navbar-wraps ul {
+.active-header .navbar-wraps ul {
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    transition: 5s all cubic-bezier(1, 1.04, 0, 1.43);
+}
+
+.active-header .navbar-wraps ul li {
+    list-style-type: none;
+}
+
+.active-header .navbar-wraps ul li a {
+    /* list-style-type: none;
+     */
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 900;
 }
 
 
