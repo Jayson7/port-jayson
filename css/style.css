@@ -59,6 +59,14 @@ body {
     display: none;
 }
 
+.fa-times {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 2rem;
+    color: white;
+}
+
 .bars {
     position: fixed;
     top: 30px;
@@ -79,6 +87,9 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 
