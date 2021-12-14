@@ -70,9 +70,6 @@ body {
 .intro-section1 p {}
 
 @media screen and (max-width: 800px) {
-    .section1 {
-        /* background-size: cover; */
-    }
     .intro-section1 {
         padding: 10px;
     }
@@ -98,12 +95,16 @@ body {
 /* navbar *************************** */
 
 .header-wraps {
-    display: none;
     width: 0;
     height: 0;
-    background-color: rgb(0, 0, 0);
-    z-index: 10;
-    transition: 5s all cubic-bezier(1, 1.04, 0, 1.43);
+    /* display: none; */
+    /* position: relative; */
+    /* background-color: #000; */
+    /* transition: 0.1s all cubic-bezier(1, 1.04, 0, 1.43); */
+}
+
+.header-wraps * {
+    display: none;
 }
 
 .bars {
@@ -119,11 +120,12 @@ body {
 
 .active-header {
     width: 100vw;
+    display: flex;
     height: 100vh;
     position: fixed;
     background-color: rgb(0, 0, 0);
     z-index: 10;
-    transition: 1s all cubic-bezier(1, 1.04, 0, 1.43);
+    transition: 0.2s all cubic-bezier(1, 1.04, 0, 1.43);
 }
 
 .active-header .fa-times {
@@ -141,7 +143,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    transition: 3s all cubic-bezier(1, 1.04, 0, 1.43);
+    transition: 9s display cubic-bezier(1, 1.04, 0, 1.43);
 }
 
 .active-header .navbar-wraps ul {
@@ -165,6 +167,15 @@ body {
     color: #fff;
     font-size: 1.2rem;
     font-weight: 900;
+}
+
+@media screen and (max-width: 800px) {
+    .active-header .navbar-wraps ul {
+        justify-content: space-around;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
 }
 
 
