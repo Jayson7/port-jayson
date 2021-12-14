@@ -100,9 +100,6 @@ body {
 .header-wraps * {
     width: 0;
     height: 0;
-    display: none;
-    position: fixed;
-    background-color: rgb(12, 5, 5);
     /* z-index: 10; */
 }
 
@@ -110,9 +107,6 @@ body {
     width: 0vw;
     height: 0vh;
     display: none;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     transition: 5s all cubic-bezier(1, 1.04, 0, 1.43);
 }
 
@@ -120,9 +114,6 @@ body {
     transition: 0.2s all cubic-bezier(1, 1.04, 0, 1.43);
     width: 0;
     height: 0;
-    display: none;
-    position: fixed;
-    /* z-index: 10; */
 }
 
 .active-header .fa-times {
