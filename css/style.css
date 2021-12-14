@@ -1,0 +1,20 @@
+* {
+    --font1: "Ubuntu";
+    --font2: "Ubunut Mono";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.section1 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/j.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
