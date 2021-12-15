@@ -242,7 +242,7 @@ body {
 
 .section2-box1 {
     width: 300px;
-    height: 300px;
+    height: 350px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -275,7 +275,7 @@ body {
 
 .section2-box2 {
     width: 300px;
-    height: 300px;
+    height: 350px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -308,7 +308,7 @@ body {
 
 .section2-box3 {
     width: 300px;
-    height: 300px;
+    height: 350px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
