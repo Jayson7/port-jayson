@@ -361,3 +361,28 @@ body {
 
 
 /* section2 ends  */
+
+.section3 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.box-grid {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+    .section3 {
+        height: 100%;
+    }
+}
+
+
+/* section3 */
+
+
+/* section3 ends */
