@@ -469,3 +469,49 @@ body {
 
 
 /* section3 ends */
+
+
+/* section4 */
+
+.section4 {
+    width: 100%;
+    height: 70vh;
+    background: #000;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.item {
+    text-align: center;
+}
+
+.owl-dot {
+    display: none !important;
+}
+
+
+/* section4 ends */
+
+
+/* footer */
+
+footer {
+    height: 10vh;
+    margin-top: 20vh;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer1 {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+/* ends */
