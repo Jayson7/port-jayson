@@ -501,9 +501,30 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
-    background: #f1f5f6;
+    margin: 10vh 0;
+    padding: 2vh;
+}
+
+.section5-box1 {
+    width: 400px;
+    height: 100%;
+    background: url("../images/jayson.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section5-box2 {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
 }
 
 
